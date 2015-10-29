@@ -32,6 +32,7 @@ bower_components/
 
 # General files
 *id_rsa*
+secrets.json
 
 # Build folders
 dist/

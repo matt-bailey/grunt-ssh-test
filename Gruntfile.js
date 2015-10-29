@@ -31,7 +31,10 @@ module.exports = function(grunt) {
         modernizr: 'bower_components/modernizr/modernizr.js',
         picturefill: 'bower_components/picturefill/dist/picturefill.min.js',
         equalizeHeights: 'bower_components/equalize-heights/dist/equalize-heights.min.js',
-      }
+      },
+
+      // Secrets...
+      secret: grunt.file.readJSON('secrets.json')
     }
   });
 };
